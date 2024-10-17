@@ -3,21 +3,33 @@ body {
 	color: #434455;
 	background-color: #FFFFFF;
 }
+
 h1, h2, h3, h4, h5, h6{
 	margin: 0;
 }
+
+a {
+	text-decoration: none;
+	display: block;
+}
+
 ul, ol{
 	padding: 0;
+	margin: 0;
 	}
+
 li{
 	list-style-type: none;
 }
+
 img {
 	display: block;
 }
+
 p {
 	margin: 0;
 }
+
 .section-title {
 	font-weight: 700;
 	font-size: 36px;
@@ -29,9 +41,11 @@ p {
 	margin-bottom: 72px;
 
 }
+
 .header-section {
 	border-bottom: 1px solid #e7e9fc;
 }
+
 .container{
 	padding: 0 156px;
 	width: 1158px;
@@ -39,14 +53,13 @@ p {
 	padding-left: 15px;
 	padding-right: 15px
 }
+
 .header_wraper {
 display: flex;
 justify-content: space-between;
 align-items: center;
-height: 80px;
-
-
 }
+
 /* Header section */
 .logo{
 	font-family: "Raleway", sans-serif;
@@ -82,19 +95,23 @@ align-items: center;
 	padding-top: 24px;
 	padding-bottom: 24px;
 }
+
 .header_nav_list_item:hover,
 .header_nav_list_item:focus {
 	color: #404bbf;
 }
+
 .contacts {
 	font-style: normal;
 	
 }
+
 .contacts_list {
 	display: flex;
 	gap: 40px;
 	
 }
+
 .contacts a {
 	
 	font-size: 16px;
@@ -102,6 +119,8 @@ align-items: center;
 	letter-spacing: 0.02em;
 	color: #434455;
 }
+
+
 .contacts a:hover,
 .contacts a:focus {
 	color: #404bbf;
@@ -115,6 +134,7 @@ background-color: #2e2f42;
 height: 600px;
 padding: 188px 0
 }
+
 .slogan {
 font-weight: 700;
 font-size: 56px;
@@ -142,6 +162,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
 }
+
 .order_button:hover,
 .order_button:focus {
 	background-color: #404bbf;
@@ -151,6 +172,7 @@ color: #fff;
 .features-section{ 
 	padding: 120px 0;
 }
+
 .visually-hidden {
 	position: absolute;
 		width: 1px;
@@ -165,10 +187,16 @@ color: #fff;
 
 }
 
+.features-section .list-title,
+.features-section .list-text {
+	text-align: left;
+}
+
 .features-list {
 display: flex;
 gap: 24px;
 }
+
 .features-list-item {
 	flex-basis: calc((100% - 3 * 24px) / 4);
 }
@@ -188,11 +216,13 @@ gap: 24px;
 	margin-top: 0;
 	
 }
+
 .team-card {
 background-color: #ffffff;
 flex-basis: calc((100% - 3 * 24px) / 4);
 border-radius: 0px 0px 4px 4px;
 }
+
 .member-info {
 	padding: 32px 0;
 }
@@ -212,32 +242,40 @@ border-radius: 0px 0px 4px 4px;
 	letter-spacing: 0.02em;
 	text-align: center;
 }
+
 /* portfolio section */
 .portfolio-section {
 	padding: 120px 0;
 }
+
 .portfolio-card {
 	width: calc((100% - 48px) / 3);
 }
+
 .portfolio-section .card-list {
 row-gap: 48px;
 }
+
 .info {
 	padding: 32px 16px;
 	border: 1px solid #e7e9fc;
 	border-top: none;
 }
+
 .info .list-title  {
 	text-align: left;
 }
+
 .info .list-text {
 	text-align: left;
 }
+
 /* footer section */
 .footer-section {
 	background: #2e2f42;
 	padding: 100px 0;
 }
+
 .footer-text {
 	display: block;
 	color: #f4f4fd;
@@ -246,11 +284,14 @@ row-gap: 48px;
 	max-width: 264px;
 	margin: 0;
 }
+
 .footer-section .logo {
 	display: inline-block;
 	margin-bottom: 16px;
+	margin-right: 0;
 color: #4d5ae5;
 }
+
 .footer-accent {
 	color: #f4f4fd;
 }
